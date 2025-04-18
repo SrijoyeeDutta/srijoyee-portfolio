@@ -664,6 +664,32 @@ span {
         font-size: 1.6rem;
         margin-left: 2.5rem;
       }
+
+      .contact form {
+        max-width: 90vw;
+        padding: 1rem;
+    }
+    
+    .contact .heading {
+        font-size: 4rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+    
+    .contact form input,
+    .contact form textarea {
+        padding: 1.5rem;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .contact form .btn {
+        width: 50%;
+        font-size: 1.6rem;
+        padding: 1rem;
+        margin-top: 1.5rem;
+        border-radius: 2.5rem;
+    }
 }
 
 @media (max-width: 617px) {

@@ -634,6 +634,36 @@ span {
         color: var(--main-color);
         box-shadow: 0 0 0.3rem var(--main-color);
     }
+
+    .timeline-items::before {
+        left: 8px;
+      }
+    
+      .timeline-item {
+        padding: 0 20px;
+      }
+    
+      .timeline-item:nth-child(odd),
+      .timeline-item:nth-child(even) {
+        padding: 0 20px;
+        text-align: left;
+      }
+    
+      .timeline-dot {
+        left: 0;
+      }
+    
+      .timeline-content {
+        padding: 2rem;
+        border-radius: 2rem;
+        margin-left: 2rem;
+        font-size: 1.4rem;
+      }
+    
+      .timeline-date {
+        font-size: 1.6rem;
+        margin-left: 2.5rem;
+      }
 }
 
 @media (max-width: 617px) {

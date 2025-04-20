@@ -605,7 +605,7 @@ span {
     }
     .home-img img {
         width: 70vw;
-        margin-left: 0.5rem;
+        margin-left: 0;
     }
     .skills h2 {
         margin-bottom: 3rem;
